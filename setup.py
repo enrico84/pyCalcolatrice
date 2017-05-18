@@ -16,10 +16,7 @@ config = {
     'download_url': 'https://github.com/enrico84/pyCalcolatrice',
     'author_email': 'enrico8484@gmail.com',
     'version': '1.0',
-    'install_requires': ['nose'],
     'packages': find_packages(),
     'scripts': [],
-    'name': 'pyCalcolatrice'
+    'name': 'calcolatrice'
 }
-
-setup(**config)
