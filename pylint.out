@@ -1,0 +1,6 @@
+************* 
+__init__.py:1: [F0010(parse-error), ] error while code parsing: Unable to load file /var/lib/jenkins/workspace/pyCalcolatrice/__init__.py:
+[Errno 2] No such file or directory: '/var/lib/jenkins/workspace/pyCalcolatrice/__init__.py'
+************* 
+__init__.py:1: [F0010(parse-error), ] error while code parsing: Unable to load file __init__.py:
+[Errno 2] No such file or directory: '__init__.py'
