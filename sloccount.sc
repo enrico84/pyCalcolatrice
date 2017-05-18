@@ -13,6 +13,8 @@ Computing results.
 80	sh	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/.git/hooks/update.sample
 5	sh	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/.git/hooks/commit-msg.sample
 3	lisp	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/sloccount.sc
+92	xml	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/coverage.xml
+0	xml	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/nosetests.xml
 26	python	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/src/testCalcolatrice.py
 29	python	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/src/calcolatrice.py
-21	python	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/setup.py
+19	python	pyCalcolatrice	/var/lib/jenkins/workspace/pyCalcolatrice/setup.py

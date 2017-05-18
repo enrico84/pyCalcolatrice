@@ -1,1 +1,2 @@
+setup.py:4: 'distutils.core.setup' imported but unused
 setup.py:8: undefined name 'io'
