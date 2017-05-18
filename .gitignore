@@ -15,4 +15,8 @@ docs/_build
 eggs/
 .eggs/
 *.egg
+*.xml
+*.sc
+*.log
+*.out
 ######
