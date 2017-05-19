@@ -17,7 +17,7 @@ config = {
     author_email: 'enrico8484@gmail.com',
     version: '1.0',
     #packages: find_packages(),
-    packages=find_packages(exclude='tests')
+    packages=find_packages()
     scripts: [],
     name: 'source'
 }
