@@ -4,7 +4,7 @@ Created on 10 mag 2017
 @author: Enrico
 '''
 import unittest
-from source.calcolatrice import calcolatrice
+import calcolatrice
 
 class TestCalcolatrice(unittest.TestCase):
 
