@@ -7,14 +7,13 @@ def long_description():
         readme = f.read()
     return readme
 
-setup(
-    description: 'moduli di una semplice calcolatrice in python',
-    author: 'Enrico Capone',
-    url: 'https://github.com/enrico84/pyCalcolatrice',
-    download_url: 'https://github.com/enrico84/pyCalcolatrice',
-    author_email: 'enrico8484@gmail.com',
-    version: '1.0',
-    packages: find_packages(),
-    scripts: [],
-    name: 'source'
-)
+setup(description: 'moduli di una semplice calcolatrice in python',
+      long_description=long_description(),
+      author: 'Enrico Capone',
+      url: 'https://github.com/enrico84/pyCalcolatrice',
+      download_url: 'https://github.com/enrico84/pyCalcolatrice',
+      author_email: 'enrico8484@gmail.com',
+      version: '1.0',
+      packages: find_packages(),
+      scripts: [],
+      name: 'source')
