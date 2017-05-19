@@ -6,12 +6,12 @@ Created on 10 mag 2017
 import unittest
 from calcolatrice import calcolatrice
 
-class Test(unittest.TestCase):
+class TestCalcolatrice(unittest.TestCase):
 
     c = calcolatrice()
 
 
-    def testName(self):
+    def test_operation(self):
         self.assertTrue(self.c.dividi(100, 10))
         self.assertEqual(2+2, self.c.somma(2, 2))
         self.assertFalse(self.c.dividi(100, 10)==15)
@@ -29,5 +29,8 @@ class Test(unittest.TestCase):
         self.failIf(self.c.moltiplica(10, 3)==31)
         
         self.assertEqual(self.c.intToBit(1), 1)
-
+        
+        
+    if __name__ == "__main__":
+        unittest.main()
 
