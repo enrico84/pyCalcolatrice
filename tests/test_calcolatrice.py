@@ -4,7 +4,7 @@ Created on 10 mag 2017
 @author: Enrico
 '''
 import unittest
-import calcolatrice
+from source.calcolatrice import calcolatrice
 
 class TestCalcolatrice(unittest.TestCase):
 
@@ -28,12 +28,3 @@ class TestCalcolatrice(unittest.TestCase):
         self.failIf(self.c.moltiplica(10, 3)==31)
         
         self.assertEqual(self.c.intToBit(1), 1)
-        
-    
-
-        
-        
-    if __name__ == "__main__":
-
-        unittest.main()
-    
