@@ -4,11 +4,12 @@ Created on 10 mag 2017
 @author: Enrico
 '''
 import unittest
-from source.calcolatrice import calcolatrice
+#from source.calcolatrice import calcolatrice
+from .context import source
 
 class TestCalcolatrice(unittest.TestCase):
 
-    c = calcolatrice()
+    c = source.calcolatrice()
 
     def test_operation(self):
         self.assertTrue(self.c.dividi(100, 10))
