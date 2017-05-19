@@ -6,7 +6,7 @@ Created on 10 mag 2017
 import math
 from math import sqrt, sin, cos
 
-class calcolatrice():
+class calcolatrice(object):
     
     def somma(self, num1, num2):
         return num1+num2
