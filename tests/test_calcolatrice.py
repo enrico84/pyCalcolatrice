@@ -4,8 +4,8 @@ Created on 10 mag 2017
 @author: Enrico
 '''
 import unittest
-#from source.calcolatrice import calcolatrice
-from .context import source
+from source.calcolatrice import calcolatrice
+#from .context import source
 
 class TestCalcolatrice(unittest.TestCase):
 
