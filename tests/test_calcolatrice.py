@@ -9,7 +9,7 @@ from source.calcolatrice import calcolatrice
 
 class TestCalcolatrice(unittest.TestCase):
 
-    c = source.calcolatrice()
+    c = calcolatrice()
 
     def test_operation(self):
         self.assertTrue(self.c.dividi(100, 10))
