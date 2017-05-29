@@ -9,14 +9,11 @@ build/
 /dist/
 /*.egg-info
 *.ropeproject/
-docs/_build
 .idea/*
 .cache/
 eggs/
 .eggs/
 *.egg
-*.xml
-*.sc
-*.log
 *.out
 ######
+
